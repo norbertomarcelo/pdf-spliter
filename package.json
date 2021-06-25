@@ -1,0 +1,22 @@
+{
+  "name": "virtual",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Marcelo Norberto",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "bootstrap": "^5.0.2",
+    "csv-parse": "^4.16.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "hummus-recipe": "^2.0.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
