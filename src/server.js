@@ -5,7 +5,7 @@ const paths = require("../config/paths");
 const middleware = require("./spliter/middlewares/index");
 
 const app = express();
-const port = 3333;
+const port = process.env.PORT || 3000;
 
 app.use("/css", express.static(paths.public));
 app.use("/bootstrap", express.static(paths.bootstrap));
